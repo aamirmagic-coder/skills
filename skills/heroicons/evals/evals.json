@@ -1,0 +1,23 @@
+{
+  "skill_name": "heroicons",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "This is a React app using Tailwind. Add a Home icon beside the Home navigation label using Heroicons, and make sure screen readers do not announce the icon twice.",
+      "expected_output": "Uses the React Heroicons package with a correct 24px outline import, decorative SVG marked aria-hidden, and visible accessible text.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "I have a Vue 3 app and want an icon-only close button in a modal. Use Heroicons and make it accessible.",
+      "expected_output": "Uses the Vue Heroicons package and gives the button an accessible name while hiding the decorative SVG from assistive technology.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Add a few icons to this plain HTML landing page without bringing in a JavaScript framework or a large dependency.",
+      "expected_output": "Recommends official SVG assets or inline SVG, avoids React/Vue dependencies, and preserves viewBox and accessible markup.",
+      "files": []
+    }
+  ]
+}
