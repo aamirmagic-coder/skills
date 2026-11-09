@@ -40,8 +40,7 @@
         "./skills/web-artifacts-builder",
         "./skills/webapp-testing"
       ]
-    }
-    ,
+    },
     {
       "name": "claude-api",
       "description": "Claude API and SDK documentation skill for building LLM-powered applications",
@@ -67,6 +66,15 @@
       "strict": false,
       "skills": [
         "./skills/discernment-nudge"
+      ]
+    },
+    {
+      "name": "heroicons",
+      "description": "Reusable Heroicons integration guidance for React, Vue, and plain HTML projects, including accessible icon usage and visual consistency.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/heroicons"
       ]
     }
   ]
